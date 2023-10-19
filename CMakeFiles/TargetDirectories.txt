@@ -1,0 +1,3 @@
+C:/Program Files/Librairie_développement_images/FlappyBird-build/CMakeFiles/FlappyBird.dir
+C:/Program Files/Librairie_développement_images/FlappyBird-build/CMakeFiles/ALL_BUILD.dir
+C:/Program Files/Librairie_développement_images/FlappyBird-build/CMakeFiles/ZERO_CHECK.dir

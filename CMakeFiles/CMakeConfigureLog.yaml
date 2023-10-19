@@ -1,0 +1,413 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+      La g‚n‚ration a d‚marr‚ 19/10/2023 13:35:55.
+      
+      Projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\3.27.6\\CompilerIdC\\CompilerIdC.vcxproj" sur le noud 1 (cibles par d‚faut).
+      PrepareForBuild:
+        Cr‚ation du r‚pertoire "Debug\\".
+        Cr‚ation du r‚pertoire "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Cr‚ation de "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+        Mise … jour de l'horodatage "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\3.27.6\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Mise … jour de l'horodatage "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      G‚n‚ration du projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\3.27.6\\CompilerIdC\\CompilerIdC.vcxproj" termin‚e (cibles par d‚faut).
+      
+      La g‚n‚ration a r‚ussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps ‚coul‚ 00:00:01.04
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Program Files/Librairie_développement_images/FlappyBird-build/CMakeFiles/3.27.6/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+      La g‚n‚ration a d‚marr‚ 19/10/2023 13:35:57.
+      
+      Projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\3.27.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sur le noud 1 (cibles par d‚faut).
+      PrepareForBuild:
+        Cr‚ation du r‚pertoire "Debug\\".
+        Cr‚ation du r‚pertoire "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Cr‚ation de "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+        Mise … jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\3.27.6\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Mise … jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      G‚n‚ration du projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\3.27.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" termin‚e (cibles par d‚faut).
+      
+      La g‚n‚ration a r‚ussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps ‚coul‚ 00:00:00.82
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Program Files/Librairie_développement_images/FlappyBird-build/CMakeFiles/3.27.6/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Program Files/Librairie_d\u00e9veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-s9378c"
+      binary: "C:/Program Files/Librairie_d\u00e9veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-s9378c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files/Librairie_développement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-s9378c'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7a13c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La g‚n‚ration a d‚marr‚ 19/10/2023 13:35:58.
+        
+        Projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-s9378c\\cmTC_7a13c.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_7a13c.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-s9378c\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_7a13c.dir\\Debug\\cmTC_7a13c.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_7a13c.dir\\Debug\\cmTC_7a13c.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+          Mise … jour de l'horodatage "cmTC_7a13c.dir\\Debug\\cmTC_7a13c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a13c.dir\\Debug\\\\" /Fd"cmTC_7a13c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.37.32825 pour x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a13c.dir\\Debug\\\\" /Fd"cmTC_7a13c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-s9378c\\Debug\\cmTC_7a13c.exe" /INCREMENTAL /ILK:"cmTC_7a13c.dir\\Debug\\cmTC_7a13c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Program Files/Librairie_d‚veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-s9378c/Debug/cmTC_7a13c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Program Files/Librairie_d‚veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-s9378c/Debug/cmTC_7a13c.lib" /MACHINE:X64  /machine:x64 cmTC_7a13c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7a13c.vcxproj -> C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-s9378c\\Debug\\cmTC_7a13c.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_7a13c.dir\\Debug\\cmTC_7a13c.tlog\\unsuccessfulbuild".
+          Mise … jour de l'horodatage "cmTC_7a13c.dir\\Debug\\cmTC_7a13c.tlog\\cmTC_7a13c.lastbuildstate".
+        G‚n‚ration du projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-s9378c\\cmTC_7a13c.vcxproj" termin‚e (cibles par d‚faut).
+        
+        La g‚n‚ration a r‚ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Program Files/Librairie_d\u00e9veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-414wv7"
+      binary: "C:/Program Files/Librairie_d\u00e9veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-414wv7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files/Librairie_développement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-414wv7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ebab8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La g‚n‚ration a d‚marr‚ 19/10/2023 13:35:59.
+        
+        Projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-414wv7\\cmTC_ebab8.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_ebab8.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-414wv7\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_ebab8.dir\\Debug\\cmTC_ebab8.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_ebab8.dir\\Debug\\cmTC_ebab8.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+          Mise … jour de l'horodatage "cmTC_ebab8.dir\\Debug\\cmTC_ebab8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ebab8.dir\\Debug\\\\" /Fd"cmTC_ebab8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.37.32825 pour x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ebab8.dir\\Debug\\\\" /Fd"cmTC_ebab8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-414wv7\\Debug\\cmTC_ebab8.exe" /INCREMENTAL /ILK:"cmTC_ebab8.dir\\Debug\\cmTC_ebab8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Program Files/Librairie_d‚veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-414wv7/Debug/cmTC_ebab8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Program Files/Librairie_d‚veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-414wv7/Debug/cmTC_ebab8.lib" /MACHINE:X64  /machine:x64 cmTC_ebab8.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ebab8.vcxproj -> C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-414wv7\\Debug\\cmTC_ebab8.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_ebab8.dir\\Debug\\cmTC_ebab8.tlog\\unsuccessfulbuild".
+          Mise … jour de l'horodatage "cmTC_ebab8.dir\\Debug\\cmTC_ebab8.tlog\\cmTC_ebab8.lastbuildstate".
+        G‚n‚ration du projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-414wv7\\cmTC_ebab8.vcxproj" termin‚e (cibles par d‚faut).
+        
+        La g‚n‚ration a r‚ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.68
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Program Files/Librairie_d\u00e9veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-l6jmus"
+      binary: "C:/Program Files/Librairie_d\u00e9veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-l6jmus"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3/patches/99;C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files/Librairie_développement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-l6jmus'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_44a1b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La g‚n‚ration a d‚marr‚ 19/10/2023 13:37:50.
+        
+        Projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-l6jmus\\cmTC_44a1b.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_44a1b.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-l6jmus\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_44a1b.dir\\Debug\\cmTC_44a1b.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_44a1b.dir\\Debug\\cmTC_44a1b.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+          Mise … jour de l'horodatage "cmTC_44a1b.dir\\Debug\\cmTC_44a1b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44a1b.dir\\Debug\\\\" /Fd"cmTC_44a1b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-l6jmus\\src.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.37.32825 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44a1b.dir\\Debug\\\\" /Fd"cmTC_44a1b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-l6jmus\\src.c"
+        C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-l6jmus\\src.c(1,10): fatal  error C1083: Impossible d'ouvrir le fichier includeÿ: 'pthread.h'ÿ: No such file or directory [C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-l6jmus\\cmTC_44a1b.vcxproj]
+        G‚n‚ration du projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-l6jmus\\cmTC_44a1b.vcxproj" termin‚e (cibles par d‚faut) -- \xc2\x90CHEC.
+        
+        \xc2\x90CHEC de la build.
+        
+        "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-l6jmus\\cmTC_44a1b.vcxproj" (cible par d‚faut) (1) ->
+        (ClCompile cible) -> 
+          C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-l6jmus\\src.c(1,10): fatal  error C1083: Impossible d'ouvrir le fichier includeÿ: 'pthread.h'ÿ: No such file or directory [C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-l6jmus\\cmTC_44a1b.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.58
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Program Files/Librairie_d\u00e9veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-n4fgex"
+      binary: "C:/Program Files/Librairie_d\u00e9veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-n4fgex"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3/patches/99;C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files/Librairie_développement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-n4fgex'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bf3a7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La g‚n‚ration a d‚marr‚ 19/10/2023 13:37:51.
+        
+        Projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-n4fgex\\cmTC_bf3a7.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_bf3a7.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-n4fgex\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_bf3a7.dir\\Debug\\cmTC_bf3a7.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_bf3a7.dir\\Debug\\cmTC_bf3a7.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+          Mise … jour de l'horodatage "cmTC_bf3a7.dir\\Debug\\cmTC_bf3a7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bf3a7.dir\\Debug\\\\" /Fd"cmTC_bf3a7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-n4fgex\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.37.32825 pour x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bf3a7.dir\\Debug\\\\" /Fd"cmTC_bf3a7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-n4fgex\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-n4fgex\\Debug\\cmTC_bf3a7.exe" /INCREMENTAL /ILK:"cmTC_bf3a7.dir\\Debug\\cmTC_bf3a7.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Program Files/Librairie_d‚veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-n4fgex/Debug/cmTC_bf3a7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Program Files/Librairie_d‚veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-n4fgex/Debug/cmTC_bf3a7.lib" /MACHINE:X64  /machine:x64 cmTC_bf3a7.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-n4fgex\\cmTC_bf3a7.vcxproj]
+        G‚n‚ration du projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-n4fgex\\cmTC_bf3a7.vcxproj" termin‚e (cibles par d‚faut) -- \xc2\x90CHEC.
+        
+        \xc2\x90CHEC de la build.
+        
+        "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-n4fgex\\cmTC_bf3a7.vcxproj" (cible par d‚faut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-n4fgex\\cmTC_bf3a7.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Program Files/Librairie_d\u00e9veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-bb27kp"
+      binary: "C:/Program Files/Librairie_d\u00e9veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-bb27kp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3/patches/99;C:/Program Files/Librairie_d\u00e9veloppement_images/Libs/VTK-9.3.0.rc1-build/lib/cmake/vtk-9.3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files/Librairie_développement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-bb27kp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cee68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La g‚n‚ration a d‚marr‚ 19/10/2023 13:37:52.
+        
+        Projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-bb27kp\\cmTC_cee68.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_cee68.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-bb27kp\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_cee68.dir\\Debug\\cmTC_cee68.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_cee68.dir\\Debug\\cmTC_cee68.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+          Mise … jour de l'horodatage "cmTC_cee68.dir\\Debug\\cmTC_cee68.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cee68.dir\\Debug\\\\" /Fd"cmTC_cee68.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-bb27kp\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.37.32825 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cee68.dir\\Debug\\\\" /Fd"cmTC_cee68.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-bb27kp\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-bb27kp\\Debug\\cmTC_cee68.exe" /INCREMENTAL /ILK:"cmTC_cee68.dir\\Debug\\cmTC_cee68.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Program Files/Librairie_d‚veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-bb27kp/Debug/cmTC_cee68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Program Files/Librairie_d‚veloppement_images/FlappyBird-build/CMakeFiles/CMakeScratch/TryCompile-bb27kp/Debug/cmTC_cee68.lib" /MACHINE:X64  /machine:x64 cmTC_cee68.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-bb27kp\\cmTC_cee68.vcxproj]
+        G‚n‚ration du projet "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-bb27kp\\cmTC_cee68.vcxproj" termin‚e (cibles par d‚faut) -- \xc2\x90CHEC.
+        
+        \xc2\x90CHEC de la build.
+        
+        "C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-bb27kp\\cmTC_cee68.vcxproj" (cible par d‚faut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [C:\\Program Files\\Librairie_d‚veloppement_images\\FlappyBird-build\\CMakeFiles\\CMakeScratch\\TryCompile-bb27kp\\cmTC_cee68.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.49
+        
+      exitCode: 1
+...
